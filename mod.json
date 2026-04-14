@@ -7,10 +7,10 @@
 		"ios": "2.2081"
 	},
 	"id": "fabbeyond.nerujumpscare",
-	"name": "NeruJumpscare",
+	"name": "Neru Jumpscare",
 	"version": "v1.0.0",
 	"developer": "FabBeyond",
-	"description": "",
+	"description": "Adds a Neru jumpscare to the game.",
 	"dependencies": {
 		"geode.node-ids": ">=v1.23.3"
 	},
