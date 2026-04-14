@@ -1,0 +1,53 @@
+{
+	"geode": "5.4.1",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "fabbeyond.nerujumpscare",
+	"name": "NeruJumpscare",
+	"version": "v1.0.0",
+	"developer": "FabBeyond",
+	"description": "",
+	"dependencies": {
+		"geode.node-ids": ">=v1.23.3"
+	},
+	"tags": [
+		"joke",
+		"gameplay",
+		"offline"
+	],
+	"resources": {
+		"sprites": [
+			"resources/neru-jumpscare-1.png",
+			"resources/neru-jumpscare-2.png",
+			"resources/neru-jumpscare-3.png",
+			"resources/neru-jumpscare-4.jpg",
+			"resources/neru-jumpscare-5.jpg"
+		],
+		"files": [
+			"resources/jumpscare-sound.mp3"
+		]
+	},
+	"settings": {
+		"enabled": {
+			"name": "Enabled",
+			"description": "Enable/Disable this mod",
+			"type": "bool",
+			"default": true
+		},
+		"chance": {
+			"name": "Chance",
+			"description": "The chance for the jumpscare to appear (in %)",
+			"type": "int",
+			"default": 10,
+			"min": 1,
+			"max": 100,
+			"control": {
+				"slider": true
+			}
+		}
+	}
+}
